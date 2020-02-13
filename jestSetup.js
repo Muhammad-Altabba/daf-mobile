@@ -1,6 +1,6 @@
 import 'cross-fetch/polyfill' // this is needed for apollo client to run on nodejs
 import * as ReactNative from 'react-native'
-import MockAsyncStorage from 'mock-async-storage'
+import MockAsyncStorage from 'mock-async-storage'                                               
 
 jest.doMock('react-native', () => {
   ReactNative.NativeModules.RNAnalytics = {}
